@@ -1,0 +1,34 @@
+<f:view 
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"  
+	xmlns:h="http://java.sun.com/jsf/html" 
+	xmlns:ui="http://java.sun.com/jsf/facelets" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-transitional.xsd">
+    <html>
+        <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <ui:insert name="htmlHead" />
+            <link rel="stylesheet" type="text/css" href="#{facesContext.externalContext.request.contextPath}/resources/css/template.css" />
+        </h:head>
+        
+        <h:body styleClass="body">
+	        <h:panelGroup layout="block" styleClass="header">
+	        	<ui:include src="templateHeader.xhtml" />
+	        </h:panelGroup>
+	        
+	        <h:panelGroup layout="block" styleClass="container">
+		        
+		 		<h:panelGroup layout="block" styleClass="mainBody">
+		        	<ui:insert name="main" />
+		        </h:panelGroup>
+		        
+		    </h:panelGroup>
+		          
+		    <h:panelGroup layout="block" styleClass="footer">
+		        <ui:include src="templateFooter.xhtml" />
+		    </h:panelGroup>
+        </h:body>
+    </html>
+</f:view>

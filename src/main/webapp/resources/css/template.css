@@ -1,0 +1,222 @@
+body{
+	font-family: arial;
+}
+
+.body {
+	margin-left:0px;
+}
+
+.header{
+	width: 100%;
+	background-color: #ffffff;
+	padding-top: 17px;
+	padding-bottom: 28px;
+	margin-bottom: 40px;
+	position: fixed;
+	height: 40px;
+	z-index: 8999;
+	top: 0;
+}
+.headerImg{
+	height: 65px;
+	display:inline-block;
+	vertical-align:middle;
+	position:relative;
+	top:-11px;	
+	z-index: 8999;
+}
+.headerText{
+	color:#ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	display:inline-block;
+	vertical-align:middle;
+	z-index: 8999;
+}
+
+.container{
+	margin-left:50px;
+	margin-right:50px;
+	margin-top: 90px;
+}
+
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    background-repeat: repeat-x;
+    height: 30px;
+    background-position: bottom;
+}
+.tittle{
+	font-size:18px;
+}
+
+.ui-breadcrumb{
+	margin-bottom:2%;
+}
+
+.ui-breadcrumb ul li span{
+     margin-left:5%;
+}
+
+.ui-breadcrumb ul li span{
+     margin-left:5%;
+}
+
+.ui-breadcrumb ul li .ui-menuitem-link {
+	text-decoration:none;
+}
+
+.mainbody{
+    margin: auto;
+    text-align:center;
+    padding-bottom: 7%;
+}
+
+.position{
+	position:relative;
+	display:block;
+}
+
+.pgridCenter{
+    margin: auto !important;
+    text-align:center !important;
+}
+
+.pgridCenter2{
+    margin: 10px auto 10px auto;
+    text-align:center;
+}
+
+.pgridCenter2 tr:nth-child(even) {background:#f2f5f9;}
+
+.tableAutoWidth{
+	table-layout: auto;	
+}
+
+.pgridCenterTab{
+    margin: auto auto 100px auto;
+    text-align:center;
+    width:90%;
+}
+
+.pgridCenterTab2{
+    margin: 30px auto 100px auto;
+    text-align:center;
+    width:90%;
+}
+
+.ui-dialog .ui-dialog-buttonpane{
+	text-align:center;
+}
+
+.ui-growl{
+     top: 18%;
+     right: 6%;
+}
+
+.alinear1{
+	display:inline-block;
+	vertical-align:middle;
+	margin-left: 100px;
+}
+
+.space{
+	margin-right:11px;
+}
+
+.rowPgrid {
+	margin-bottom:30px;
+}
+
+.odd {
+    background-color: #ACD4B1;
+    border-top: 1px solid #000;
+}
+
+.even {
+    background-color: #FFFFFF;
+    border-top: 1px solid #000;
+}
+
+.textoCenter{
+	text-align: center;
+}
+.main {
+	height: 100%;	
+}
+
+.bold {
+	font-weight: bold;	
+}
+
+.boton {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.rowDefault{
+	background-color: #e6f900;
+	font-size: 0.9em;
+}
+.rowOK{
+	background-color: #02d01c;
+	font-size: 0.9em;
+}
+.rowAlerta{
+	background-color: #f8a74e;
+	font-size: 0.9em;
+}
+.rowError{
+	background-color: #ba5656;
+	font-size: 0.9em;
+}
+
+.footer{
+	background-color: #000000;
+	font-size: 14px;
+	color: #ffffff;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 30px;
+	clear: both;
+	position:fixed;
+	bottom:0;
+	width:100%;	
+}
+.footerImg{
+	height:30px;
+	float:left;
+	position:relative;
+	top:10px;
+	left: 100px;
+}
+.footerText{
+	 float:right;
+	 position:relative;
+	 right:100px;
+}
+.footerText a{  
+ 	text-decoration:none; 
+ 	color: #ffffff;  
+} 
+.footerText a:hover{  
+ 	color: #c8c9ce;  
+}
+.propClean{
+	clear:both;
+}
+
+.ui-button, .ui-button span, button.ui-button.ui-state-default span, .ui-button.ui-state-default span {
+	font-weight: 100 !important;	
+}
+
+.ui-button-icon-only .ui-icon{
+	left:25% !important;
+	margin-left:initial !important;
+}
